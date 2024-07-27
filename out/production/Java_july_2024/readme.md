@@ -50,6 +50,31 @@ Arithmetic Op
 + - * / % 
 
 
+## Naming Convention
+
+class - Uppercase first Letter
+camel casing ? 
+
+variables 
+or methods
+
+lowercase 
+
+myVariable
+
+
+
+
+
+=== 
+Schedule
+Tuesday 8pm - 10 pm = Java , remote 
+Thursday = Side courses, Unix, Git github... , remote
+Saturday - 10 am - 2 pm - Java , Hybrid
+
+
+
+
 
 
 
