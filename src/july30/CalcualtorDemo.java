@@ -1,5 +1,7 @@
 package july30;
 
+import java.util.Scanner;
+
 public class CalcualtorDemo {
     public static void main(String[] args) {
 
@@ -13,6 +15,28 @@ public class CalcualtorDemo {
         System.out.println("4. Division");
         System.out.println("5. Modulus");
         System.out.println("0. Exit");
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your input ");
+        int input = scanner.nextInt();
+
+        switch (input) {
+            case 1:
+
+            break;
+            case 2:
+
+                break;
+            case 3:
+
+                break;
+            case 4:
+                break;
+            default:
+                System.out.println("Wrong input ");
+
+
+        }
 
 /*
 
