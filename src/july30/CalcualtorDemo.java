@@ -5,38 +5,59 @@ import java.util.Scanner;
 public class CalcualtorDemo {
     public static void main(String[] args) {
 
-        System.out.println("******************************");
-        System.out.println("Welcome to My Calculator...");
-        System.out.println("******************************");
+        char choice = 0;
+        do {
+            System.out.println("******************************");
+            System.out.println("Welcome to My Calculator...");
+            System.out.println("******************************");
 
-        System.out.println("1. Addition");
-        System.out.println("2. Multiplication");
-        System.out.println("3. Subtraction");
-        System.out.println("4. Division");
-        System.out.println("5. Modulus");
-        System.out.println("0. Exit");
+            System.out.println("1. Addition");
+            System.out.println("2. Multiplication");
+            System.out.println("3. Subtraction");
+            System.out.println("4. Division");
+            System.out.println("5. Modulus");
+            System.out.println("0. Exit");
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your input ");
-        int input = scanner.nextInt();
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Enter your input ");
+            int input = scanner.nextInt();
 
-        switch (input) {
-            case 1:
+            switch (input) {
+                case 1:
 
-            break;
-            case 2:
-
-                break;
-            case 3:
-
-                break;
-            case 4:
-                break;
-            default:
-                System.out.println("Wrong input ");
+                    System.out.println("Enter the first Number ");
+                    int x = scanner.nextInt();
 
 
-        }
+                    System.out.println("Enter the second Number ");
+                    int y = scanner.nextInt();
+
+                    int sum = x + y;
+
+                    System.out.println("Sum is " + sum);
+
+                    break;
+                case 2:
+
+                    break;
+                case 3:
+
+                    break;
+                case 4:
+                    break;
+                default:
+                    System.out.println("Wrong input ");
+
+
+            }
+
+            System.out.println("Do you still want to continue ?? Y for yes , N no");
+
+            choice = scanner.next().charAt(0);
+            System.out.println(choice);
+        }while (choice != 'N' &&  choice != 'n' );
+    }
+}
 
 /*
 
@@ -55,7 +76,3 @@ The of num1 and num2 is : sum
 
 
 
-
-
-    }
-}
