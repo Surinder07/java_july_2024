@@ -25,16 +25,7 @@ public class CalcualtorDemo {
             switch (input) {
                 case 1:
 
-                    System.out.println("Enter the first Number ");
-                    int x = scanner.nextInt();
-
-
-                    System.out.println("Enter the second Number ");
-                    int y = scanner.nextInt();
-
-                    int sum = x + y;
-
-                    System.out.println("Sum is " + sum);
+                   sum();
 
                     break;
                 case 2:
@@ -56,6 +47,20 @@ public class CalcualtorDemo {
             choice = scanner.next().charAt(0);
             System.out.println(choice);
         }while (choice != 'N' &&  choice != 'n' );
+    }
+
+
+    public void sum(){
+        System.out.println("Enter the first Number ");
+        int x = scanner.nextInt();
+
+
+        System.out.println("Enter the second Number ");
+        int y = scanner.nextInt();
+
+        int sum = x + y;
+
+        System.out.println("Sum is " + sum);
     }
 }
 

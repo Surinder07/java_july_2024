@@ -7,24 +7,45 @@ while, do while
 
 
 
- char input = 'A';
-Switch(input) {
 
-case 'A' :
-System.out.println("Hello");
+class 
 
-break;
-
-
-}
+1. Blueprint which includes methods variables 
+2. specific behaviour and properties 
+3. template 
 
 
- 
+primitve and 
 
-while(true){
+non primitive - String , Class , Arrays.. 
 
-System.out.println("Hello");
-}
+
+
+1. User defined data type 
+2. Blueprint
+3. Logical entity 
+
+
+        Animal 
+     Dot  Cat 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
