@@ -12,6 +12,9 @@ public class Test {
         obj.sum(10,20);
         obj.sum(12.32,123.33);
 
+
+        int x = 10;
+
     }
 
     public double sum(int x, int y) {
