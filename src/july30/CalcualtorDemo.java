@@ -25,7 +25,6 @@ public class CalcualtorDemo {
             switch (input) {
                 case 1:
 
-                   sum();
 
                     break;
                 case 2:
@@ -50,18 +49,7 @@ public class CalcualtorDemo {
     }
 
 
-    public void sum(){
-        System.out.println("Enter the first Number ");
-        int x = scanner.nextInt();
 
-
-        System.out.println("Enter the second Number ");
-        int y = scanner.nextInt();
-
-        int sum = x + y;
-
-        System.out.println("Sum is " + sum);
-    }
 }
 
 /*
