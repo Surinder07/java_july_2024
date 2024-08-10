@@ -8,7 +8,7 @@ public class Mobile {
     String color = "Red";
 
 
-    public Mobile(String model, int memory, String color) {
+    private Mobile(String model, int memory, String color) {
         this.model = model;
         this.memory = memory;
         this.color = color;
