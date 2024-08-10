@@ -25,7 +25,16 @@ public class Demo {
             System.out.println(rollNo[i]);
         }
 
+/*
 
+create an array of size , ask user to what size of array
+
+ask user to enter the values for array
+
+print those values...
+
+
+ */
 
 
 
