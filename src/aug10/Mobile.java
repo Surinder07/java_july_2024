@@ -14,6 +14,26 @@ public class Mobile {
         this.color = color;
     }
 
+
+    public Mobile(String model, int memory) {
+        this.model = model;
+        this.memory = memory;
+        this.color = "Green";
+    }
+
+
+    public Mobile(String model) {
+        this.model = model;
+        this.memory = 256;
+        this.color = "Blue";
+    }
+
+
+
+
+
+
+
     public void display(){
         System.out.println("Model  : " + model);
         System.out.println("Memory :  " + memory);
