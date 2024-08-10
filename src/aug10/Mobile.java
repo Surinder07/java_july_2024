@@ -28,12 +28,6 @@ public class Mobile {
         this.color = "Blue";
     }
 
-
-
-
-
-
-
     public void display(){
         System.out.println("Model  : " + model);
         System.out.println("Memory :  " + memory);

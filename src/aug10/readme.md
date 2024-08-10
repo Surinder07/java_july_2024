@@ -12,3 +12,10 @@ How to create object
  
 
 this ? 
+
+
+static 
+1. static variable 
+2. static method 
+3. static block 
+4. static class 
