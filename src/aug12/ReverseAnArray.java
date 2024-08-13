@@ -3,7 +3,7 @@ package aug12;
 public class ReverseAnArray {
     public static void main(String[] args) {
 
-        int[] givenArray = {112,12,32,32,};
+        int[] givenArray = {112,12,32,32};
         reverseArray(givenArray);
 
         for (int element: givenArray) {
@@ -37,3 +37,10 @@ public class ReverseAnArray {
 // arr = {10,20,45,23,23,53,54};
 // find the max element from array
 // min
+
+// find the sum of elements in array
+//    {10,20,45,23,23,53,54};  , max = 54
+
+// sum of elements of array
+
+// 10,20,30,40,50  , sum = 150

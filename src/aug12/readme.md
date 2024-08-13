@@ -18,3 +18,8 @@ static
 
 
 
+arrays types 
+1. Single dimensions 
+2. Multi dimensions , 2d, 3d,.....
+
+
