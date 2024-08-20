@@ -1,4 +1,4 @@
-package aug17;
+package aug17.stringsdemo;
 
 public class StringTest {
     public static void main(String[] args) {
@@ -23,6 +23,15 @@ public class StringTest {
         System.out.println(name);
         String trim = name.trim();
         System.out.println(trim);
+
+
+
+
+
+
+
+
+
 
 
 

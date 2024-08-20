@@ -30,10 +30,29 @@ we cannot change the string object.
 
 
 Immutable 
-String  
+String     
 
 Mutable 
 StringBuilder vs StringBuffer
+
+you can modify the existing object....
+
+
+
+Mutable 
+
+StringBuffer 
+1. Thread safe 
+
+two threads cannot access this resource at the same....
+
+StringBuilder
+
+its not thread safe....
+two threads can access this resource at same time
+
+
+
 
 
 

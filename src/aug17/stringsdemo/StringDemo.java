@@ -1,4 +1,4 @@
-package aug17;
+package aug17.stringsdemo;
 
 public class StringDemo {
     public static void main(String[] args) {
