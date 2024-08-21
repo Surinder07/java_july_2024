@@ -41,23 +41,34 @@ you can modify the existing object....
 
 Mutable 
 
-StringBuffer 
+StringBuffer  1.1
 1. Thread safe 
 
 two threads cannot access this resource at the same....
 
-StringBuilder
+
+resource <------- A , 10 minutes to finish  [wait time 100]
+
+B 
+
+
+
+
+
+StringBuilder , 1.5
 
 its not thread safe....
 two threads can access this resource at same time
 
 
+A and B 
+
+inconsitency 
 
 
 
 
-
-
+String vs StringBuilder vs StringBuffer
 
 
 
