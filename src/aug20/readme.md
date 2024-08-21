@@ -59,17 +59,24 @@ A ---- x  , this.x
  
 B ---- super.x 
 
+## Object 
+
+Every class has a super class called Object class 
+
+user defined class 
+Java created 
+
+
+## Has-A relationship
+
+Car has a Engine  -
+
+Employee is a address 
+Employee has a address 
 
 
 
 
 
 
-
-
-
-
-
-2. Polymorphism
-3. Encapsulation 
-4. Abstraction
+ 
