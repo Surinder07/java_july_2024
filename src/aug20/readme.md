@@ -51,6 +51,16 @@ Truck
 
 
 
+## this 
+## super 
+
+
+A ---- x  , this.x
+ 
+B ---- super.x 
+
+
+
 
 
 
