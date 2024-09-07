@@ -1,6 +1,10 @@
 package aug31.abstractdemo;
 
 public class Iphone extends Mobile{
+    public Iphone(int capacity, String brand, double price) {
+        super(capacity, brand, price);
+    }
+
     @Override
     public void call() {
         System.out.println("Calling using Hey Siri in iphone... ");
