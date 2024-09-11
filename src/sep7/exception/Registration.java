@@ -20,3 +20,10 @@ public class Registration {
         System.out.println(" Calcuting some after this.. ");
     }
 }
+
+// sample problem
+// take user input , Number 1 and Number 2
+// number1/ number 2
+// number = 0 
+
+
